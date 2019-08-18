@@ -13,9 +13,24 @@ body {
 }
 
 .title-group {
-    font-size: 40px;
     text-align: center;
-    font-family: serif;
+    font-family: Avenir, sans-serif;
+}
+
+.title-header {
+    font-size: 40px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    height: 40px;
+    line-height: 40px;
+    background-color: #E6E4E4;
+    text-align: center;
 }
 
 #catname {

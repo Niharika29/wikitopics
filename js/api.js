@@ -48,7 +48,7 @@ function findPagesInCategory( catname ) {
 			list: "categorymembers",
 			format: "json",
 			cmtitle: catname,
-			cmlimit: 100,
+			cmlimit: 500,
 			cmnamespace: 0
 		},
 		success: function ( res ) {
