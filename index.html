@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="js/api.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<meta charset="UTF-8">
+		<title>Title</title>
+	</head>
+	<body>
+		<div class="title-group">
+			Category Overview
+		</div>
+		<div class="container-fluid" id="search-group">
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text" id="inputGroup-label">Search for a topic:</span>
+				</div>
+				<input type="text" id="catname" class="form-control col-lg-5" aria-label="Sizing example input">
+				<button type="submit" id="sub" class="btn btn-primary" onclick="main()">Submit</button>
+			</div>
+		</div>
+		<div class="pages">
+			<div class="card-columns"></div>
+		</div>
+	</body>
+</html>

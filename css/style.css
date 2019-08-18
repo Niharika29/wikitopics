@@ -1,0 +1,69 @@
+body {
+    padding: 30px 60px;
+}
+
+#search-group {
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.input-group-text {
+    width: 200px;
+}
+
+.title-group {
+    font-size: 40px;
+    text-align: center;
+    font-family: serif;
+}
+
+#catname {
+    margin-right: 10px;
+    width: auto;
+}
+
+#sub {
+    width: 200px;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 5;
+    }
+}
+
+.fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
